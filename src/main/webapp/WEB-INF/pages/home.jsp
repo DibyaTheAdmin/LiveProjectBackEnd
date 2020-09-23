@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+
     pageEncoding="ISO-8859-1"%>
     <!DOCTYPE html>
     <html lang="en">
@@ -6,9 +7,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Wiki Like</title>
-        <link rel="stylesheet" href="style.css">
-      <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> -->
-        <!-- <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css"> -->
+        <link rel="stylesheet" href="Styles/style.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
     </head>
     <body>
         <div class="conatiner-fluid">
@@ -110,3 +111,5 @@
         <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     </body>
     </html>
+
+>>>>>>> branch 'master' of https://github.com/DibyaTheAdmin/LiveProjectBackEnd.git
