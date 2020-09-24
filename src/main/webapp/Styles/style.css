@@ -11,7 +11,7 @@ body {
     display: grid;
     grid-template-columns: 10em auto;
 }
-[src="images/download.jpg"] {
+[src="Images/Wiki-black.png"] {
     width: 5rem;
     display: block;
 }

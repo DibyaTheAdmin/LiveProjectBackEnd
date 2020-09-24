@@ -8,8 +8,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Wiki Like</title>
         <link rel="stylesheet" href="Styles/style.css">
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+        <link href="webjars/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link href="webjars/font-awesome/5.14.0/css/fontawesome.min.css" rel="stylesheet">
+        <script src="webjars/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="webjars/jquery/3.5.1/dist/jquery.min.js"></script>
     </head>
     <body>
         <div class="conatiner-fluid">
@@ -17,7 +19,7 @@
                 <div class="left-navbar">
                     <nav class="navbar navbar-expand-lg navbar-light bg-light">
                       <a class="navbar-brand" href="#">
-                        <img class="" src="images/download.jpg" alt="oops">
+                        <img class="img-fluid" src="Images/Wiki-black.png" alt="oops">
                       </a>
                       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
