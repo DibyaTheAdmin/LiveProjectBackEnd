@@ -16,7 +16,7 @@ public class MainController {
 	@Autowired
 	private IHomeService service;
 	//Home Page 
-	@GetMapping("home.htm")
+	@GetMapping("home.html")
 	public String home(Map<String,Object>map) {
 		
 		//use service
@@ -25,5 +25,11 @@ public class MainController {
 		//add to map
 		map.put("homeContent", hdto);
 		return "home";
+	}
+	
+	//Geo Politics Blog
+	@GetMapping("geo.html")
+	public String geoPolitics() {
+		return "geopolitics";
 	}
 }
